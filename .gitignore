@@ -1,0 +1,21 @@
+﻿# Folder build & cache Flutter/Android (termasuk libflutter.so > 100 MB)
+**/build/
+**/.dart_tool/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+*.apk
+*.aab
+*.zip
+
+# Dataset mentah & cache (kalau ada)
+dataset/
+datasets/
+**/dataset_split/
+**/dataset_master/
+**/Chili.v1i.folder (1)/
+**/kaggle/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
